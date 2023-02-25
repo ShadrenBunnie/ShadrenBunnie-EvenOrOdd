@@ -14,6 +14,15 @@ public class Lab {
      * @return a String "Even" if n is even, and "Odd" of in is odd. The test cases are case-sensitive.
      */
     public String decide(int n){
-        return "";
+        /** The goal is to test an unknown number, n, to figure out if it is Even or Odd.
+         * Be sure to implement the Modulus, %, into the block of code for testing.
+         * n % 2 = 0 = Even; Else = Odd
+         */
+        if (n %2 == 0){
+            return "Even";
+        }else{
+            return "Odd";
+        }
+        //return "";
     }
 }
